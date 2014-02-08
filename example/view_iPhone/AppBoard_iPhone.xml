@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ui namespace="WelcomeBoard">
+	<linear orientation="v" class="wrapper">
+		<image class="background" />
+		<linear orientation="v" class="inner-wrapper">
+			<!--Header-->
+			<!-- logo -->
+			<image id="logo" />
+			<!-- line -->
+			<view class="line-top" />
+			<view class="line-bottom" />
+			<!-- body -->
+			<!-- slider -->
+			<linear orientation="v" class="aslider">
+				<image id= "slider-photo"  class="slider-photo" />
+				<label id= "" class="stitle">Welcome To {Bee}</label>
+			</linear>
+			<!-- line -->
+			<view class="line-top" />
+			<view class="line-bottom" />
+			<!-- feature -->
+			<linear orientation="h" class="feature">
+				<linear orientation="v" class="feature-cell">
+					<image id="icon-one" class="feature-icon" />
+					<label id="" class="feature-title">T1</label>
+					<label id="" class="feature-content">C2</label>
+				</linear>
+				<linear orientation="v" class="feature-cell">
+					<image id="icon-two" class="feature-icon" />
+					<label id="" class="feature-title">T1</label>
+					<label id="" class="feature-content">C2</label>
+				</linear>
+				<linear orientation="v" class="feature-cell">
+					<image id="icon-three" class="feature-icon" />
+					<label id="label31" class="feature-title">T1</label>
+					<label id="label32" class="feature-content">C2</label>
+				</linear>
+			</linear>
+			<!-- line -->
+			<view class="line-top" />
+			<view class="line-bottom" />
+			<!-- article -->
+			<linear orientation="v" class="article">
+				<label class="article-title">Coming Soon...</label>
+				<label class="article-content">Bee Interface Builder is a software development application for editing BeeFramework UI files, for example, .xml, .html, .ui, which based on the modern browser!</label>
+	
+        </linear>
+            
+          
+		</linear>
+	</linear>
+	<style type="text/css">
+		.wrapper {
+			width: 100%;
+			height: 100%;
+		}
+		.inner-wrapper {
+			width: 100%;
+			height: 100%;
+			padding: 10px;
+		}
+		.background {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			background-color: #555e;
+		}
+		#logo {
+			width: 166px;
+			height: 34px;
+			image-src: url(http://www.yuninfo.com/Ch/images/case_img4.jpg)
+		}
+		.line-top {
+			height: 1px;
+			width: 100%;
+			background-color:#cacaca;
+			margin-top: 10px;
+		}
+		.line-bottom {
+			height: 1px;
+			width: 100%;
+			background-color:#FFFFFF;
+			margin-bottom: 10px;
+		}
+		.aslider {
+     	  
+           margin-top: 10px;
+           height: 150px;
+           width: 100%;
+		}
+		#slider-photo{
+          image-src: url(http://paultrifa.com/envato/themeforest/webby/images/icons-large/icon1@2x.png);
+		}
+		.stitle {
+        margin-top: 120px;
+        width: 100%;
+        height: 30px;
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        text-align: left;
+        background-color: #666;
+        }
+		.feature {
+			width: 100%;
+			height: 140px;
+		}
+		.feature-cell {
+			width: 33%;
+			height: 100%;
+		}
+		.feature-icon {
+        
+			width: 70px;
+			height: 70px;
+			background-color: #fff;
+			text-align: center;
+		}
+		.feature-title {
+            margin-top:10px;<!->真希望你们看得懂。。虽然很坑，但是很好用<-!>
+			width: 100%;
+			height: 35px;
+			background-color: #ccc;
+            text-align: center;
+		}
+		.feature-content {
+			width: 100%;
+			height: 35px;
+			background-color: #999;
+            text-align: center;
+		}
+		#icon-one {
+			image-src: url(http://paultrifa.com/envato/themeforest/webby/images/icons-large/icon1@2x.png);
+		}
+		#icon-two {
+			image-src: url(http://paultrifa.com/envato/themeforest/webby/images/icons-large/icon2@2x.png);
+		}
+		#icon-three {
+			image-src: url(http://paultrifa.com/envato/themeforest/webby/images/icons-large/icon3@2x.png);
+		}
+		.article {
+			width: 100%;
+			height: auto;
+          
+		}
+		.article-title {
+			width: 100%;
+			height: 40px;
+			font-size: 33px;
+			color: #393;
+			text-align: center;
+           
+		}
+		.article-content {
+			margin-top: 5px;
+			width: 100%;
+			height: auto;
+			font-size: 15px;
+			color: #966;
+			text-align: left;
+            text-valign:top;
+            line-num:0;
+		}
+		
+	</style>
+</ui>
